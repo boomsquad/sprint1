@@ -1,0 +1,31 @@
+body {background: linear-gradient(lavender, white);}
+
+h1 {font-size: 45px;
+    text-align: center;}
+
+p {text-align: center;
+    font-size: 18px;}
+ 
+.header {font-size: 30px;
+    text-align: center;}
+
+.header1 {font-size: 30px;}
+
+.picture {display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+.listings {list-style: square;}
+
+li {font-size: 18px;}
+
+* {box-sizing: border-box;}
+
+.column {float: left;
+    width: 33.33%;
+    padding: 5px;}
+  
+
+.row::after {content: "";
+    clear: both;
+    display: table;}
